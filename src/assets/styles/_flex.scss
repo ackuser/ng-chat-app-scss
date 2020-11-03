@@ -1,0 +1,9 @@
+// Common properties for all components
+@import '_colors';
+
+// Cards common properties
+// Shortcut for background and color
+@mixin bc($background, $color) {
+  background: $background;
+  color: $color;
+}

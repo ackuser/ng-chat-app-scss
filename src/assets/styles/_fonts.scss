@@ -1,0 +1,4 @@
+@mixin font-sw ($size, $weigth: normal) {
+    font-size: $size;
+    font-weight: $weigth;
+}
