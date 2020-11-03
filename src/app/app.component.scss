@@ -1,0 +1,17 @@
+:host {
+ position: relative;
+
+    .oval {
+        position: absolute;
+
+        &--dark{
+            bottom: 50vh;
+            right: 50vw;   
+        }
+
+        &--light{
+            top: 50vh;
+            left: 50vw;
+        }
+    }
+}
