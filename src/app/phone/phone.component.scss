@@ -1,0 +1,33 @@
+@import '_colors';
+
+:host {
+
+    .phone {
+        display: flex;
+        position: relative;
+        width: 247px;
+        height: 505px;
+        border-radius: 30px;
+        border: 10px solid white;
+        background: $violet-light-grayish;
+
+        &__rect-1 {
+            margin: 0 auto;
+            width: 129px;
+            height: 29px;
+            border-radius: 0 0 14px 14px;
+            background: white;
+            z-index: 1;
+        }
+
+        &__rect-2 {
+            position: absolute;
+            margin: 0 auto;
+            width: 100%;
+            height: 66px;
+            border-radius: 20px 20px 0 0;
+            background: $gradient-1;
+        }
+
+    }
+}

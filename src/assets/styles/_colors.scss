@@ -1,12 +1,24 @@
-// Abstraction of colors to use in app
-// Branding colors
-$cc-brand-01: #E844FF;
-$cc-brand-02: #8739FF;
+// Colors
+
+// Primary -- Gradients
+
+$magent-light: hsl(293, 100%, 63%);
+$violet-light: hsl(264, 100%, 61%);
+$gradient-1: linear-gradient(45deg, $magent-light 0%, $violet-light 100%);
+
+
+// Secondary
+
+$white: hsl(0, 0%, 100%);
+$violet-light-grayish: hsl(270, 20%, 96%);
+// $violet-dark-verydesaturated: hsl(271, 36%, 24%);
+$magent-light-very: hsl(289, 100%, 72%);
 
 // Text colors
-$text-01: #3E2753;
-$text-02: #A39DA9;
 
-// UI colors
-$ui-01: #ddd;
-$ui-02: #e6e6e6;
+$violet-pale: hsl(276, 100%, 81%);
+$violet-moderate:hsl(276, 55%, 52%);
+$violet-dark-desaturated: hsl(271, 15%, 43%);
+$violet-dark-verydesaturated: hsl(271, 36%, 24%);
+$violet-dark-grayish: hsl(270, 7%, 64%);
+$blue-grayish: hsl(206, 6%, 79%);

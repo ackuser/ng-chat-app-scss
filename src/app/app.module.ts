@@ -6,13 +6,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { OvalComponent } from './oval/oval.component';
 import { HighdarkDirective } from './directives/highdark.directive';
+import { PhoneComponent } from './phone/phone.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     OvalComponent,
     HighlightDirective,
-    HighdarkDirective
+    HighdarkDirective,
+    PhoneComponent
   ],
   imports: [
     BrowserModule,
