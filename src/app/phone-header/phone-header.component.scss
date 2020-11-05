@@ -1,0 +1,55 @@
+@import '_fonts';
+
+:host {
+    height: 66px;
+    border-radius: 20px 20px 0 0;
+    background: $gradient-1;
+
+    .rect {
+        margin: -1px auto 0 auto;
+        width: 129px;
+        height: 16px;
+        border-radius: 0 0 14px 14px;
+        background: white;
+        z-index: 1;
+    }
+
+    .user {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+
+        .fa {
+            flex: 0 1 auto;
+            color: white;
+            align-self: center;
+        }
+
+        &__content {
+            flex: 0 1 50%;
+            margin-right: 30%;
+            display: flex;
+            justify-content: space-between;
+
+            .avatar {
+                width: 24px;
+                height: 24px;
+                border-radius: 50%;
+                border: 2px solid white;
+                align-self: center;
+            }
+
+            .info {
+                flex: 0 1 auto;
+
+                .title {
+                    @include title(x-small, white);
+                }
+
+                .subtitle {
+                    @include subtitle(xx-small, $violet-pale);
+                }
+            }
+        }
+    }
+}

@@ -7,15 +7,19 @@ import { AppComponent } from './app.component';
 import { OvalComponent } from './oval/oval.component';
 import { HighdarkDirective } from './directives/highdark.directive';
 import { PhoneComponent } from './phone/phone.component';
+import { CommentLeftComponent } from './comment-left/comment-left.component';
+import { PhoneHeaderComponent } from './phone-header/phone-header.component';
 
 @NgModule({
-  declarations: [
+  declarations: [		
     AppComponent,
     OvalComponent,
     HighlightDirective,
     HighdarkDirective,
-    PhoneComponent
-  ],
+    PhoneComponent,
+      CommentLeftComponent,
+      PhoneHeaderComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule

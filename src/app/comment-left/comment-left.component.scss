@@ -1,0 +1,12 @@
+@import '_fonts';
+
+.block {
+    width: 128px;
+    border-radius: 10px 10px 4px 10px;
+    background: $violet-light-grayish;
+    padding: 2px;
+    
+    .message {
+        @include message;
+    }
+}
