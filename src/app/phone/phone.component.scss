@@ -1,4 +1,5 @@
-@import '_colors';
+// @import '_colors'; is already in fonts
+@import '_fonts';
 
 :host {
     display: flex;
@@ -10,9 +11,9 @@
     background: $violet-light-grayish;
 
     .rect-1 {
-        margin: 0 auto;
+        margin: -1px auto 0 auto;
         width: 129px;
-        height: 29px;
+        height: 16px;
         border-radius: 0 0 14px 14px;
         background: white;
         z-index: 1;
@@ -26,27 +27,45 @@
         border-radius: 20px 20px 0 0;
         background: $gradient-1;
 
-        .fa {
-            color: white;
-        }
-
+        
         .user {
             width: 100%;
+            height: 100%;
             display: flex;
             justify-content: space-around;
+            align-items: flex-end;
             
+            .fa {
+                flex: 0 1 auto;
+                color: white;
+                align-self: center;
+                margin-top: 14px;
+            }
 
             &__content {
-                // flex: 0 1 60%;
-
-
+                flex: 0 1 50%;
+                margin-right: 30%;
+                display: flex;
+                justify-content: space-between;
 
                 .avatar {
                     width: 24px;
                     height: 24px;
                     border-radius: 50%;
-                    display: inline-block;
                     border: 2px solid white;
+                    align-self: center;
+                }                
+                
+                .info {
+                    flex: 0 1 auto;
+                    
+                    .title {
+                        @include title(x-small, white);
+                    }
+                    
+                    .subtitle {
+                        @include subtitle(xx-small, $violet-pale);
+                    }
                 }
             }
         }
