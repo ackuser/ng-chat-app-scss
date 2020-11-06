@@ -11,9 +11,10 @@ import { PhoneComponent } from './phone/phone.component';
 import { CommentLeftComponent } from './comment-left/comment-left.component';
 import { PhoneHeaderComponent } from './phone-header/phone-header.component';
 import { CommentRightComponent } from './comment-right/comment-right.component';
+import { PhotoComponent } from './photo/photo.component';
 
 @NgModule({
-  declarations: [	
+  declarations: [		
     AppComponent,
     OvalComponent,
     HighlightDirective,
@@ -22,7 +23,8 @@ import { CommentRightComponent } from './comment-right/comment-right.component';
     PhoneHeaderComponent,
     CommentLeftComponent,
     CommentLeftSpecialComponent,
-      CommentRightComponent
+      CommentRightComponent,
+      PhotoComponent
    ],
   imports: [
     BrowserModule,

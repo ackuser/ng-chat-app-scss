@@ -12,7 +12,7 @@
     background: #f8f6f6;
     z-index: 1111;
     box-shadow: 0px 30px 60px -10px $violet-light-a;
-    
+
     .header {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
@@ -24,6 +24,15 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        height: 100%;    
+        height: 100%;
+
+        &__photos {
+            width: max-content;
+            margin-left: auto;
+
+            .photo {
+                margin-right: 6px;
+            }
+        }
     }
 }
