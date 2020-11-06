@@ -1,0 +1,15 @@
+@import '_fonts';
+
+:host {
+    border-radius: 10px 10px 10px 4px;
+    background: $white;
+    padding: 4px 8px;
+    margin-right: 8px;
+    width: max-content;
+    margin-left: auto;
+
+    .message {
+        @include message($color: $violet-dark-verydesaturated);
+        max-width: 128px;
+    }
+}

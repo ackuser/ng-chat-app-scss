@@ -18,7 +18,7 @@
     color: $color;
     font-size: $size;
     font-weight: 400;
-    text-align: center;
+    text-align: start;
 }
 
 @mixin figure($size: small, $color: $violet-moderate) {

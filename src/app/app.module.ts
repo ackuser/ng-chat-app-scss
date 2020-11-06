@@ -10,9 +10,10 @@ import { HighdarkDirective } from './directives/highdark.directive';
 import { PhoneComponent } from './phone/phone.component';
 import { CommentLeftComponent } from './comment-left/comment-left.component';
 import { PhoneHeaderComponent } from './phone-header/phone-header.component';
+import { CommentRightComponent } from './comment-right/comment-right.component';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     OvalComponent,
     HighlightDirective,
@@ -20,8 +21,9 @@ import { PhoneHeaderComponent } from './phone-header/phone-header.component';
     PhoneComponent,
     PhoneHeaderComponent,
     CommentLeftComponent,
-    CommentLeftSpecialComponent
-  ],
+    CommentLeftSpecialComponent,
+      CommentRightComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule
