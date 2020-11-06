@@ -1,0 +1,23 @@
+@import '_fonts';
+
+:host{
+    width: 95%;
+    height: 34px;
+    border-radius: 10px;
+    background: white;
+    padding: 4px 12px;
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 4px auto;
+
+    .message {
+        @include message($color: $blue-grayish);
+    }
+
+    .fa {
+        flex: 0 1 auto;
+        align-self: center;
+    }
+}
