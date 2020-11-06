@@ -6,7 +6,7 @@ $magent-light: hsl(293, 100%, 63%);
 $violet-light: hsl(264, 100%, 61%);
 
 $magent-light-a: hsla(293, 100%, 63%, 0.1);
-$violet-light-a: hsla(264, 100%, 61%, 0.1);
+$violet-light-a: hsla(264, 100%, 61%, 0.3);
 
 $gradient-1: linear-gradient(45deg, $magent-light 0%, $violet-light 100%);
 $gradient-2: linear-gradient(45deg, $magent-light-a 0%, $violet-light-a 100%);
@@ -15,7 +15,7 @@ $gradient-2: linear-gradient(45deg, $magent-light-a 0%, $violet-light-a 100%);
 // Secondary
 
 $white: hsl(0, 0%, 100%);
-$violet-light-grayish: hsl(270, 20%, 96%);
+$violet-light-grayish: hsl(268, 63%, 95%);
 // $violet-dark-verydesaturated: hsl(271, 36%, 24%);
 $magent-light-very: hsl(289, 100%, 72%);
 

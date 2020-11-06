@@ -14,9 +14,16 @@
     text-align: center;
 }
 
-@mixin message($size: x-small, $color: $violet-moderate) {
+@mixin message($size: xx-small, $color: $violet-moderate) {
     color: $color;
     font-size: $size;
     font-weight: 400;
+    text-align: center;
+}
+
+@mixin figure($size: small, $color: $violet-moderate) {
+    color: $color;
+    font-size: $size;
+    font-weight: 700;
     text-align: center;
 }

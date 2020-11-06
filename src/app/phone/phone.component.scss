@@ -9,8 +9,9 @@
     height: 505px;
     border-radius: 30px;
     border: 10px solid white;
-    background: #fcfcfc;
+    background: #f8f6f6;
     z-index: 1111;
+    box-shadow: 0px 30px 60px -10px $violet-light-a;
     
     .header {
         grid-column: 1 / 2;

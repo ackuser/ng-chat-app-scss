@@ -1,0 +1,31 @@
+@import '_fonts';
+
+:host {
+    width: 160px;
+    height: 32px;
+    border-radius: 10px 10px 10px 4px;
+    background: $gradient-1;
+    padding: 4px 8px;
+    margin-left: 8px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .dot {
+        height: 18px;
+        width: 18px;
+        border: 1px solid $violet-pale;
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+    .message {
+        @include message($color:white);
+    }
+
+    .figure {
+        @include figure($color:white);
+    }
+
+}

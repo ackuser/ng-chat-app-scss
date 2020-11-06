@@ -1,3 +1,4 @@
+import { CommentLeftSpecialComponent } from './comment-left-special/comment-left-special.component';
 import { HighlightDirective } from './directives/highlight.directive';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -11,15 +12,16 @@ import { CommentLeftComponent } from './comment-left/comment-left.component';
 import { PhoneHeaderComponent } from './phone-header/phone-header.component';
 
 @NgModule({
-  declarations: [		
+  declarations: [
     AppComponent,
     OvalComponent,
     HighlightDirective,
     HighdarkDirective,
     PhoneComponent,
-      CommentLeftComponent,
-      PhoneHeaderComponent
-   ],
+    PhoneHeaderComponent,
+    CommentLeftComponent,
+    CommentLeftSpecialComponent
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule
