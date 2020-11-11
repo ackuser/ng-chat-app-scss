@@ -1,5 +1,6 @@
 // @import '_colors'; is already in fonts
 @import '_fonts';
+@import '_anim';
 
 :host {
     display: grid;
@@ -35,4 +36,17 @@
             }
         }
     }
+
+    .anim {
+        opacity: 0;
+
+        @for $i from 0 through 7 {
+            $delay: $i;
+
+            &--#{$i} {
+                @include fadeIn($delay);
+            }
+        }
+    }
+
 }
